@@ -69,3 +69,13 @@ Recipe Finder is a full-stack React application that lets users search, browse a
 Create a file named `.env` in the project root and add your OpenAI key:  
 ```bash
 REACT_APP_OPENAI_API_KEY=sk-your_real_api_key_here
+
+
+## Running the Project
+
+Once you’ve cloned the repo and set up your .env:
+   
+bash
+   
+   npm install
+   npm start
