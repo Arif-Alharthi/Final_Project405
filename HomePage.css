@@ -1,0 +1,92 @@
+.home-container {
+  text-align: center;
+  padding: 4rem 1rem;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* العنوان الرئيسي */
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #2e4adb;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* نموذج البحث */
+.home-container form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.home-container input {
+  width: 60%;
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.home-container button[type="submit"] {
+  padding: 0.75rem 1.5rem;
+  background-color: #ffcc00;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home-container button[type="submit"]:hover {
+  background-color: #e6b800;
+}
+
+/* أزرار الصفحة */
+.random-movie-button,
+.mood-selection-button,
+.movie-man-button .movie-man-btn {
+  margin: 1rem 0.5rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ff5722;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.random-movie-button:hover,
+.mood-selection-button:hover,
+.movie-man-button .movie-man-btn:hover {
+  transform: scale(1.05);
+}
+
+/* قائمة المطابخ */
+.mood-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.mood-button {
+  padding: 0.5rem 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.mood-button:hover {
+  background-color: #388e3c;
+}

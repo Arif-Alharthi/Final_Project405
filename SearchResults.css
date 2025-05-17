@@ -1,0 +1,18 @@
+.search-results-container {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .search-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .search-results-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
