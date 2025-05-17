@@ -1,27 +1,20 @@
 # Recipe Finder 🍽️
 
-![Homepage Screenshot](<WhatsApp Image 2025-05-17 at 1.34.36 AM.jpeg>)
-
----
+![Homepage Screenshot](./WhatsApp%20Image%202025-05-17%20at%201.34.36%20AM.jpeg)
 
 ## Project Description
 
-Recipe Finder is a full-stack React application that lets users search, browse and save recipes from around the world. It includes:
-
-- Email/password authentication (via Firebase)  
-- Protected routes so only logged-in users can access certain pages  
-- Integration with TheMealDB for recipe data  
-- An AI-powered “RecipeBot” assistant using OpenAI’s GPT-3.5 Turbo  
+Recipe Finder is a full-stack React application that lets users search, browse and save recipes from around the world. It includes email/password authentication (via Firebase), protected routes so only logged-in users can access certain pages, integration with TheMealDB for recipe data and an AI-powered “RecipeBot” assistant using OpenAI’s GPT-3.5.
 
 ---
 
 ## Features
 
 - **User Authentication**  
-  Register and log in with email/password (Firebase Auth).
+  Register and login with email/password (Firebase Auth)  
 
 - **Protected Routes**  
-  Favorites and Recipe Details pages accessible only to authenticated users.
+  Favorites and Recipe Details pages accessible only to authenticated users  
 
 - **Recipe Search**  
   - Search by keyword  
@@ -29,13 +22,13 @@ Recipe Finder is a full-stack React application that lets users search, browse a
   - “Random Recipe” generator  
 
 - **Favorites Management**  
-  Add or remove recipes from your personal favorites list.
+  Add or remove recipes from your personal favorites list  
 
 - **RecipeBot AI Assistant**  
-  Ask cooking questions in natural language; answers powered by GPT-3.5 Turbo.
+  Ask cooking questions in natural language; answers powered by OpenAI GPT-3.5 Turbo  
 
 - **Responsive UI**  
-  Mobile-friendly design with reusable React components and CSS styling.
+  Mobile-friendly design with reusable React components and CSS styling  
 
 ---
 
@@ -44,7 +37,7 @@ Recipe Finder is a full-stack React application that lets users search, browse a
 - **Core**  
   - React (Create React App)  
   - React Router (`react-router-dom`)  
-  - Hooks: `useState`, `useEffect`  
+  - State management with React hooks (`useState`, `useEffect`)  
 
 - **Authentication**  
   - Firebase SDK (`firebase`)  
@@ -55,27 +48,20 @@ Recipe Finder is a full-stack React application that lets users search, browse a
   - OpenAI Chat Completions API  
 
 - **UI & Icons**  
-  - Plain CSS / CSS modules  
+  - CSS modules / plain CSS  
   - React Icons (`react-icons`)  
 
 - **Dev & Build**  
   - Node.js & npm  
-  - (Optional) `gh-pages` for GitHub Pages deployment  
+  - `gh-pages` (if you choose GitHub Pages deployment)  
 
 ---
 
-## Environment Variables
-
-Create a file named `.env` in the project root and add your OpenAI key:  
-```bash
-REACT_APP_OPENAI_API_KEY=sk-your_real_api_key_here
-
-
 ## Running the Project
 
-Once you’ve cloned the repo and set up your .env:
-   
-bash
-   
-   npm install
-   npm start
+Once you’ve cloned the repo and set up your `.env` (with your `REACT_APP_OPENAI_API_KEY` and Firebase config):
+
+```bash
+npm install
+npm start
+
