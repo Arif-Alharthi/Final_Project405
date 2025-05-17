@@ -15,7 +15,7 @@
 </p>
 
 **SelectFood.jpeg** – choose a recipe from a variety of cuisines.  
-**Egy.jpeg** – example: an Egyptian dish (“Koshari”) displayed next to the selection list.
+**Egy.jpeg** – example: an Egyptian dish (“Fatteh”) displayed next to the selection list.
 
 ---
 
