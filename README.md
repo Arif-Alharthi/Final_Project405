@@ -11,7 +11,7 @@
 
 <p align="center">
   <img src="./SelectFood.jpeg" alt="Select from Cuisines List" width="180" />
-  <img src="./Egy.jpeg" alt="Example Egyptian Dish" width="180" />
+  <img src="./Egy.jpeg" alt="Example Egyptian Dish" width="150" />
 </p>
 
 **SelectFood.jpeg** – choose a recipe from a variety of cuisines.  
