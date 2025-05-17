@@ -5,6 +5,20 @@
 ![Random Recipe Feature](./imageFood.jpeg)  
 *This screenshot shows the **Random Recipe** feature in action: it fetches a completely random dish, displays its ingredients and instructions, and even embeds a short YouTube video tutorial for how to prepare it.*
 
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="./SelectFood.jpeg" alt="Select from Cuisines List" width="180" />
+  <img src="./Egy.jpeg" alt="Example Egyptian Dish" width="180" />
+</p>
+
+**SelectFood.jpeg** – choose a recipe from a variety of cuisines.  
+**Egy.jpeg** – example: an Egyptian dish (“Koshari”) displayed next to the selection list.
+
+---
+
 ## Project Description
 
 Recipe Finder is a full-stack React application that lets users search, browse and save recipes from around the world. It includes email/password authentication (via Firebase), protected routes so only logged-in users can access certain pages, integration with TheMealDB for recipe data and an AI-powered “RecipeBot” assistant using OpenAI’s GPT-3.5.
@@ -22,7 +36,7 @@ Recipe Finder is a full-stack React application that lets users search, browse a
 - **Recipe Search**  
   - Search by keyword  
   - Filter by cuisine (American, Italian, Indian, etc.)  
-  - “Random Recipe” generator  
+  - **Random Recipe** generator  
 
 - **Favorites Management**  
   Add or remove recipes from your personal favorites list  
