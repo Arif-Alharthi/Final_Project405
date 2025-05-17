@@ -2,6 +2,9 @@
 
 ![Homepage Screenshot](./WhatsApp%20Image%202025-05-17%20at%201.34.36%20AM.jpeg)
 
+![Random Recipe Feature](./imageFood.jpeg)  
+*This screenshot shows the **Random Recipe** feature in action: it fetches a completely random dish, displays its ingredients and instructions, and even embeds a short YouTube video tutorial for how to prepare it.*
+
 ## Project Description
 
 Recipe Finder is a full-stack React application that lets users search, browse and save recipes from around the world. It includes email/password authentication (via Firebase), protected routes so only logged-in users can access certain pages, integration with TheMealDB for recipe data and an AI-powered “RecipeBot” assistant using OpenAI’s GPT-3.5.
@@ -64,4 +67,3 @@ Once you’ve cloned the repo and set up your `.env` (with your `REACT_APP_OPENA
 ```bash
 npm install
 npm start
-
